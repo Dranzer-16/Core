@@ -10,10 +10,11 @@ public class HashClassProgramms {
 		places.add("Tamil nadu");
 		places.add("Kerala");
 		places.add("Andhara");
-		places.add("Telengna");
+		places.add("Andhara");
 		places.add("Mumbai");
 		places.add("Rajhasthan");
-		places.add("Kashmir");
+		places.add("Mumbai");
+		places.add("Delhi");
 		
 		Iterator<String> iterator=places.iterator();
 		
