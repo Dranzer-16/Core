@@ -1,7 +1,6 @@
 package com.set.programs;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
 public class HashClassProgramms {
 	
@@ -16,12 +15,14 @@ public class HashClassProgramms {
 		places.add("Mumbai");
 		places.add("Delhi");
 		
-		Iterator<String> iterator=places.iterator();
+		places.forEach(System.out::println);
 		
-		while (iterator.hasNext()) {
-			System.out.println(iterator.next());
-			
-		}
+//		Iterator<String> iterator=places.iterator();
+//		
+//		while (iterator.hasNext()) {
+//			System.out.println(iterator.next());
+//			
+//		}
 	}
 
 }
